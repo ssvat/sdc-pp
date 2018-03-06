@@ -8,19 +8,28 @@ The Term3 Simulator which contains the Path Planning Project is obtained from th
 
 My goal is to safely navigate around a virtual highway with other traffic that is driving +-10 MPH of the 50 MPH speed limit. The car's localization and sensor fusion data are provided, as well as a sparse map list of waypoints around the highway. The car plans to go as close as possible to the 50 MPH speed limit, which means passing slower traffic when possible, note that other cars will try to change lanes too. The car can avoid hitting other cars at all cost as well as driving inside of the marked road lanes at all times, unless going from one lane to another. The car is able to make at least one complete loop around the 6946m highway (~5 minutes). Also the car will not experience total acceleration over 10 m/s^2 and jerk that is greater than 10 m/s^3.
 
+![Final Result](passplanning.png)
+
+## Input Data
 
 The map of the highway is in data/highway_map.txt
 Each waypoint in the list contains [x,y,s,dx,dy] values. x and y are the waypoint's map coordinate position, the s value is the distance along the road to get to that waypoint in meters, the dx and dy values define the unit normal vector pointing outward of the highway loop.
 
 The highway's waypoints loop around so the frenet s value, distance along the road, goes from 0 to 6945.554.
 
-Basic Build Instructions
-Clone this repo.
-Make a build directory: mkdir build && cd build
-Compile: cmake .. && make
-Run it: ./path_planning.
-Here is the data provided from the Simulator to the C++ Program
+## Basic Build Instructions
 
+1. Clone this repo.
+
+2. Make a build directory: mkdir build && cd build
+
+3. Compile: cmake .. && make
+
+4. Run it: ./path_planning.
+
+## Parameters
+
+Here is the data provided from the Simulator to the C++ Program
 Main car's localization Data (No Noise)
 ["x"] The car's x position in map coordinates
 
