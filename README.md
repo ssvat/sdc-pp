@@ -8,7 +8,7 @@ The Term3 Simulator which contains the Path Planning Project is obtained from th
 
 My goal is to safely navigate around a virtual highway with other traffic that is driving +-10 MPH of the 50 MPH speed limit. The car's localization and sensor fusion data are provided, as well as a sparse map list of waypoints around the highway. The car plans to go as close as possible to the 50 MPH speed limit, which means passing slower traffic when possible, note that other cars will try to change lanes too. The car can avoid hitting other cars at all cost as well as driving inside of the marked road lanes at all times, unless going from one lane to another. The car is able to make at least one complete loop around the 6946m highway (~5 minutes). Also the car will not experience total acceleration over 10 m/s^2 and jerk that is greater than 10 m/s^3.
 
-Finally, the car runs 5.39 mils.
+Finally, the car runs 5.39 miles.
 
 ![Final Result](pathplanning.png)
 
